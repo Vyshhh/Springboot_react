@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface QuestionDao extends JpaRepository<Userdetails, Integer> {
+public interface UserDao extends JpaRepository<Userdetails, Integer> {
  List<Userdetails> findByName(String name);
 }
